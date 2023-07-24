@@ -124,9 +124,9 @@ a{
 }
 .zt{
     width: 1226px;
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    margin: 0 auto;
+    position: absolute;
+    left: 152px;
+    z-index: 1;
 }
 .white-nav-bar{
     float: left;
@@ -194,18 +194,12 @@ form{
 .banner{
     width: 1226px;
     height: 460px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
     margin: 0 auto;
     position: relative;
 }
 .banner img{
     width: 1226px;
     height: 460px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 .banner-left{
     width: 234px;
@@ -262,6 +256,27 @@ form{
     width: 1200px;
     text-align: right;
 }
+.hide ul li span{
+    width: 172px;
+    color: #000;
+    position: absolute;
+}
+.hide{
+    box-shadow:0 8px 16px rgba(0,0,0,.18);
+}
+.hide ul{
+    float: left;
+}
+.hide li{
+    height: 76px;
+}
+.hide img{
+    width: 40px;
+    height: 40px;
+}
+.hide span:hover{
+    color: #ff6700;
+}
 .ba-hide-1{
     width:256px;
     height: 460px;
@@ -272,11 +287,7 @@ form{
     z-index: 2;
     display: none;
 }
-.ba-hide-1 ul li span{
-    width: 172px;
-    color: #000;
-    position: absolute;
-}
+
 .ul li:nth-child(1):hover .ba-hide-1{
    display: block;
 }
@@ -289,14 +300,6 @@ form{
     top: 1px;
     z-index: 2;
     display: none;
-}
-.ba-hide-2 ul li span{
-    width: 172px;
-    color: #000;
-    position: absolute;
-}
-.ba-hide-2 ul{
-    float: left;
 }
 .ul li:nth-child(2):hover .ba-hide-2{
     display: block;
@@ -311,28 +314,63 @@ form{
     z-index: 2;
     display: none;
 }
-.hide{
-    box-shadow:0 8px 16px rgba(0,0,0,.18);
-}
-.hide li{
-    height: 76px;
-}
-.hide img{
-    width: 40px;
-    height: 40px;
-}
-.hide span:hover{
-    color: #ff6700;
-}
-.ba-hide-3 ul li span{
-    width: 172px;
-    color: #000;
-    position: absolute;
-}
-.ba-hide-3 ul{
-    float: left;
-}
 .ul li:nth-child(3):hover .ba-hide-3{
     display: block;
 }
+.ba-hide-4{
+    width: 992px;
+    height: 460px;
+    background: #fff;
+    position: absolute;
+    left: 235px;
+    top: 1px;
+    z-index: 2;
+    display: none;
+}
+.ul li:nth-child(4):hover .ba-hide-4{
+    display: block;
+}
+.ba-hide-5{
+    width: 992px;
+    height: 460px;
+    background: #fff;
+    position: absolute;
+    left: 235px;
+    top: 1px;
+    z-index: 2;
+    display: none;
+}
+.ba-hide-5 ul li span{
+    width: 180px;
+}
+.ul li:nth-child(5):hover .ba-hide-5{
+    display: block;
+}
+.ba-hide-6{
+    width: 992px;
+    height: 460px;
+    background: #fff;
+    position: absolute;
+    left: 235px;
+    top: 1px;
+    z-index: 2;
+    display: none;
+}
 
+.ul li:nth-child(6):hover .ba-hide-6{
+    display: block;
+}
+.ba-hide-7{
+    width: 795px;
+    height: 460px;
+    background: #fff;
+    position: absolute;
+    left: 235px;
+    top: 1px;
+    z-index: 2;
+    display: none;
+}
+
+.ul li:nth-child(7):hover .ba-hide-7{
+    display: block;
+}
